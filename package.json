@@ -1,0 +1,39 @@
+{
+  "name": "shoes-clone",
+  "version": "0.0.1",
+  "description": "Recreating the 2shoes app in ReactJS",
+  "main": "app-server.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node app-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InvasiveLionfish/ShoesClone.git"
+  },
+  "keywords": [
+    "reactjs",
+    "express",
+    "node",
+    "socketsio",
+    "bootstrap"
+  ],
+  "author": "Mayank Mishra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InvasiveLionfish/ShoesClone/issues"
+  },
+  "homepage": "https://github.com/InvasiveLionfish/ShoesClone#readme"
+}
