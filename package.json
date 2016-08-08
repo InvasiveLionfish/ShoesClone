@@ -1,19 +1,21 @@
 {
   "name": "shoes-clone",
   "version": "0.0.1",
-  "description": "Recreating the 2shoes app in ReactJS",
+  "description": "Recreating the 2shoes PHP app in ReactJS",
   "main": "app-server.js",
   "dependencies": {
-    "babel-core": "^5.8.12",
-    "babel-loader": "^5.3.2",
+    "babel": "^6.5.2",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
-    "bootstrap": "^3.3.5",
-    "express": "^4.13.1",
-    "react": "^0.13.3",
-    "socket.io": "^1.3.6",
-    "socket.io-client": "^1.3.6",
-    "webpack": "^1.10.5"
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "webpack": "^1.13.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -26,10 +28,10 @@
   },
   "keywords": [
     "reactjs",
+    "babel",
     "express",
-    "node",
-    "socketsio",
-    "bootstrap"
+    "webpack",
+    "node"
   ],
   "author": "Mayank Mishra",
   "license": "MIT",
