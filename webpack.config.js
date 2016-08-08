@@ -6,11 +6,11 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /.jsx?$/,
         exclude: /(node_modules|app-server.js)/,
         loader: 'babel',
         query: {
-                    presets:['react']
+                    presets:['es2015', 'react']
                 }
       }
     ]
